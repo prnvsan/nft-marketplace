@@ -18,6 +18,10 @@ const pages = [
   {
     title: 'MY NFTs',
     href: '/my-nfts'
+  },
+  {
+    title: 'Voting',
+    href: '/voting'
   }
 ]
 

@@ -35,7 +35,7 @@ export default function NFTPrice ({ nft }) {
       variant="h6"
       color="text.secondary"
       >
-        {priceText}
+        {priceText} 
       </Typography>
       <Typography
       gutterBottom
@@ -43,14 +43,14 @@ export default function NFTPrice ({ nft }) {
       color="text.secondary"
       >
         <span style={{ display: 'inline-block', transform: 'translateY(3px)' }}>
-          <Image
+          {/* <Image
             alt='Matic'
             src='/matic.png'
             width="20px"
             height="20px"
             onMouseEnter={handlePopoverOpen}
             onMouseLeave={handlePopoverClose}
-          />
+          /> */}
         </span>
         <Popover
           id="mouse-over-popover"
@@ -72,8 +72,10 @@ export default function NFTPrice ({ nft }) {
         >
           <Typography sx={{ p: 1 }}>Matic</Typography>
         </Popover>
-        {' '}{nft.price}
+        {' '}{nft.price} ETH
       </Typography>
     </div>
   )
 }
+
+
